@@ -37,12 +37,12 @@ Cara menggunakan di Client:
 
 Cara Kerja di Client:
 1. script akan menjalankan code `des.cpp` pada `DES/` dan akan memasingkan argumen yang akan di enkripsi menggunakan DES
-2. pada `des.cpp`, argumen akan di enkripsi dan hasil dari encripsi akan di letakkan pada sebuah file yang terletak pada `~DES/cipher_text.txt`
-3. file cipher_text kemudian di kirimkan ke root directory `MyServer` melalui ssh menggunakan `scp DES/cipher_text.txt root@192.168.1.3:~/`
+2. pada `des.cpp`, argumen akan dienkripsi dan hasil dari enkripsi akan di letakkan pada sebuah file yang terletak pada `~/DES/cipher_text.txt`
+3. file cipher_text kemudian dikirimkan ke root directory `MyServer` melalui ssh menggunakan `scp DES/cipher_text.txt root@192.168.1.3:~/`
 
 ![test_client](images/test_client.jpg)
 
-pada directory `MyClient` terdapat susunan file sebagai berikut:
+pada directory `MyServer` terdapat susunan file sebagai berikut:
 
 ![file_server](images/file_server.jpg)
 
