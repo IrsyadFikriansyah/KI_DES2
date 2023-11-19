@@ -26,7 +26,7 @@ pada `MyClient`:
 
 ## Cara Kerja
 
-pada directory `MyClient` terdapat susunan file sebagai berikut:
+pada directory root `MyClient` terdapat susunan file sebagai berikut:
 
 ![file_client](images/file_client.jpg)
 
@@ -42,7 +42,7 @@ Cara Kerja di Client:
 
 ![test_client](images/test_client.jpg)
 
-pada directory `MyServer` terdapat susunan file sebagai berikut:
+pada directory root `MyServer` terdapat susunan file sebagai berikut:
 
 ![file_server](images/file_server.jpg)
 
