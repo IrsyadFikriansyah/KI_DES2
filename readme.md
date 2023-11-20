@@ -7,6 +7,7 @@ Implementasi pertukaran message menggunakan DES pada 2 komputer
 ![topologi](images/topologi.jpg)
 
 IP `MyClient`: 192.168.1.2
+
 IP `MyServer`: 192.168.1.3
 
 ## Setup SSH
